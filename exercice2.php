@@ -1,9 +1,5 @@
 <?php
-if(isset($_GET['age'])){
-    echo $_GET['age'];
-}else{
-    echo 'Aucun paramètres age';
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +16,7 @@ if(isset($_GET['age'])){
 
 ?>
 
-<a href="exercice2.php?lastname=Nemare&firstname=Jean">Lien</a>
+
 
 </body>
 </html>

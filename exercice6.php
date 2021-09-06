@@ -1,7 +1,5 @@
 <?php
-if(isset($_GET['building']) && isset($_GET['room'])){
-    echo 'Batiment : ' . $_GET['building'] . ' <br> ' . 'Chambre : ' . $_GET['room'];
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -18,9 +16,7 @@ if(isset($_GET['building']) && isset($_GET['room'])){
 
 ?>
 
-<div>
-<a href="exercice6.php?building=12&room=101">Lien</a>
-</div>
+
 
 </body>
 </html>

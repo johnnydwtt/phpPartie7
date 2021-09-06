@@ -1,7 +1,5 @@
 <?php
-if(isset($_GET['week'])){
-    echo 'Week : ' . $_GET['week'] ;
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +16,7 @@ if(isset($_GET['week'])){
 
 ?>
 
-<a href="exercice5.php?week=12">Lien</a>
+
 
 </body>
 </html>
